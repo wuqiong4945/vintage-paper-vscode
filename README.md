@@ -2,14 +2,14 @@
 
 A light theme for Visual Studio Code.
 
-![Preview](https://raw.githubusercontent.com/wuqiong4945/vintage-paper-vscode/images/screen.png)
+![Preview](https://raw.githubusercontent.com/wuqiong4945/vintage-paper-vscode/main/images/screen.png)
 
 Original version based on vim [papercolor](https://github.com/NLKNguyen/papercolor-Theme) theme.
 
 ## Installation
 
 1. Open **Extensions** sidebar panel in VS Code. `View → Extensions`
-2. Search for `vintage paper` - find the one by **wuqiong**.
+2. Search for `vintage paper` - find the one by **Wu Qiong**.
 3. Click **Install** to install it.
 4. Code > Preferences > Color Theme > **Vintage Paper Theme**.
 
