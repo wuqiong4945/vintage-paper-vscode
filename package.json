@@ -1,0 +1,47 @@
+{
+  "name": "theme-vintage-paper",
+  "displayName": "Vintage Paper Theme",
+  "description": "Vintage paper theme for Visual Studio Code",
+  "publisher": "wuqiong",
+  "version": "1.0.0",
+  "license": "MIT",
+  "icon": "images/icon.png",
+  "homepage": "https://github.com/wuqiong4945/vintage-paper-vscode",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wuqiong4945/vintage-paper-vscode"
+  },
+  "engines": {
+    "vscode": "^1.70.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "Vintage",
+    "Vintage Paper",
+    "Paper",
+    "Paper Color",
+    "Light",
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Vintage Paper",
+        "uiTheme": "vs",
+        "path": "./themes/vintage-paper-theme.json"
+      }
+    ]
+  },
+  "devDependencies": {
+    "@types/node": "^18.14.1",
+    "@vscode/vsce": "^2.18.0",
+    "yaml": "^2.2.1"
+  },
+  "scripts": {
+    "build": "tsc && node dist/app.js",
+    "package": "npm run build && vsce ls && vsce package",
+    "publish": "vsce publish"
+  }
+}

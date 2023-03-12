@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="79mm"
+   height="84mm"
+   viewBox="0 0 79 84"
+   version="1.1"
+   id="svg5"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs2" />
+  <g
+     id="layer1"
+     transform="translate(-50.02668,-74.834106)">
+    <rect
+       style="fill:#eeeeee;fill-opacity:1;stroke:#005f87;stroke-width:4;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect846"
+       width="75"
+       height="80"
+       x="52.02668"
+       y="76.834106"
+       rx="10"
+       ry="10" />
+    <rect
+       style="fill:#d70087;fill-opacity:1;stroke:none;stroke-width:0.4"
+       id="rect2104"
+       width="15"
+       height="5"
+       x="60.209686"
+       y="89.582367" />
+    <rect
+       style="fill:#005faf;fill-opacity:1;stroke:none;stroke-width:0.813426"
+       id="rect2426"
+       width="40"
+       height="5"
+       x="80.107307"
+       y="89.582367" />
+    <rect
+       style="fill:#8700af;fill-opacity:1;stroke:none;stroke-width:0.4"
+       id="rect2650"
+       width="15"
+       height="5"
+       x="60.209686"
+       y="99.746513" />
+    <rect
+       style="fill:#878787;fill-opacity:1;stroke:none;stroke-width:0.813426"
+       id="rect2652"
+       width="40"
+       height="5"
+       x="80.107307"
+       y="99.746513" />
+    <rect
+       style="fill:#d75f00;fill-opacity:1;stroke:none;stroke-width:0.4"
+       id="rect2654"
+       width="15"
+       height="5"
+       x="60.209686"
+       y="109.91067" />
+    <rect
+       style="fill:#5f8700;fill-opacity:1;stroke:none;stroke-width:0.813426"
+       id="rect2656"
+       width="40"
+       height="5"
+       x="80.107307"
+       y="109.91067" />
+    <rect
+       style="fill:#d70000;fill-opacity:1;stroke:none;stroke-width:0.4"
+       id="rect2658"
+       width="15"
+       height="5"
+       x="60.209686"
+       y="120.07482" />
+    <rect
+       style="fill:#444444;fill-opacity:1;stroke:none;stroke-width:0.813426"
+       id="rect2660"
+       width="40"
+       height="5"
+       x="80.107307"
+       y="120.07482" />
+  </g>
+</svg>
