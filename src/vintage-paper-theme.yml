@@ -1284,10 +1284,11 @@ tokenColors:
   # () [] {} "" '' `` , following content in them
 
   - scope:
-    # punctuation.separator    # , and :
-    # punctuation.terminator  # ; and other coder terminate symbol
-    # punctuation.separator.continuation    # line continue symbol
-    # punctuation.accessor          # .
+      # punctuation.separator    # , and :
+      # punctuation.terminator  # ; and other coder terminate symbol
+      # punctuation.separator.continuation    # line continue symbol
+      # punctuation.accessor          # .
+      # punctuation.attribute-shorthand # @ and : in vue
     settings:
       foreground: *foreground
       fontStyle: normal
