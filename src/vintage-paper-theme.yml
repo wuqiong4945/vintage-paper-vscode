@@ -1289,6 +1289,7 @@ tokenColors:
       # punctuation.separator.continuation    # line continue symbol
       # punctuation.accessor          # .
       # punctuation.attribute-shorthand # @ and : in vue
+      - punctuation.definition.entity
     settings:
       foreground: *foreground
       fontStyle: normal
