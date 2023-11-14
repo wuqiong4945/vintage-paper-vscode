@@ -41,7 +41,7 @@ colorNames:
   # - &activity_bar_bg "#d0d0d0" # 252 -
   - &activity_bar_fg "#e4e4e4" # 254
   - &activity_bar_bg "#878787" # 102, color05
-  # - &activity_bar_bg "#444444" # 238
+  - &remote_bar_bg "#008700" # 28
   - &visual_opacity_bg "#0087af88" # 31
   - &menu_bar_fg "#444444" # 238 -
   - &menu_bar_bg "#d0d0d0" # 252 -
@@ -283,7 +283,7 @@ colors:
   statusBarItem.prominentForeground: # Status Bar prominent items foreground color.
   statusBarItem.prominentBackground: *blue # Status Bar prominent items background color.
   statusBarItem.prominentHoverBackground: # Status Bar prominent items background color when hovering.
-  statusBarItem.remoteBackground: # Background color for the remote indicator on the status bar.
+  statusBarItem.remoteBackground: *remote_bar_bg # Background color for the remote indicator on the status bar.
   statusBarItem.remoteForeground: # Foreground color for the remote indicator on the status bar.
   statusBarItem.errorBackground: *red # Status bar error items background color. Error items stand out from other status bar entries to indicate error conditions.
   statusBarItem.errorForeground: # status bar error items foreground color. Error items stand out from other status bar entries to indicate error conditions.
