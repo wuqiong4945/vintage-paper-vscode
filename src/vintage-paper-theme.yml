@@ -1385,12 +1385,17 @@ tokenColors:
   - scope:
       # - markup.list.numbered
       # - markup.list.unnumbered
-      - markup.inserted
       - markup.raw.inline
       - markup.other
       - markup.changed
     settings:
       foreground: *red
+      fontStyle: normal
+
+  - scope:
+      - markup.inserted
+    settings:
+      foreground: *green
       fontStyle: normal
 
   - scope:
@@ -1407,6 +1412,16 @@ tokenColors:
     settings:
       foreground: *olive
       fontStyle: normal
+
+  - scope:
+      - markup.deleted.diff
+    settings:
+      foreground: *diffdelete_fg
+
+  - scope:
+      - markup.inserted.diff
+    settings:
+      foreground: *diffadd_fg
 
   # =============================================================================
   # 13 source
