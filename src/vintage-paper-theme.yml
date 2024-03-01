@@ -1167,8 +1167,8 @@ tokenColors:
   - scope:
       - variable.language # language kept var (this, super, self...)
     settings:
-      foreground: *navy
-      fontStyle: bold
+      foreground: *orange
+      fontStyle: normal
 
   - scope:
       - variable.other.predefined
