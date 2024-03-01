@@ -3,6 +3,10 @@
 All notable changes to the "vintage paper theme" extension will be documented in this file.
 
 <!-- Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file. -->
+## 1.0.5 - 2024.03.01
+
+- distinguish emu with struct/class
+- add semantic tokens selfKeyword/selfTypeKeyword
 
 ## 1.0.4 - 2023.11.14
 

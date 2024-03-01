@@ -626,22 +626,22 @@ semanticTokenColors:
   # entity.name.type.class
   # class.defaultLibrary: support.class
   class:
-    foreground: *blue
+    foreground: *aqua
     fontStyle: bold
   # For identifiers that declare or reference an enumeration type.
   # entity.name.type.enum
   enum:
-    foreground: *navy
+    foreground: *green
     fontStyle: bold
   # For identifiers that declare or reference an interface type.
   # entity.name.type.interface
   interface:
-    foreground: *navy
+    foreground: *blue
     fontStyle: bold
   # For identifiers that declare or reference a struct type.
   # storage.type.struct
   struct:
-    foreground: *blue
+    foreground: *aqua
     fontStyle: bold
   # For identifiers that declare or reference a type parameter.
   typeParameter:
@@ -731,6 +731,12 @@ semanticTokenColors:
     fontStyle: bold
   keyword.controlFlow:
     foreground: *purple
+    fontStyle: bold
+  selfKeyword:
+    foreground: *orange
+    fontStyle: normal
+  selfTypeKeyword:
+    foreground: *orange
     fontStyle: bold
   # For tokens that represent a number literal.
   number:
@@ -982,18 +988,22 @@ tokenColors:
       - entity.name.type
       - entity.name.class
       - entity.name.struct
-      - entity.name.enum
       - entity.name.union
-      - entity.name.trait
-      - entity.name.interface
-      - entity.name.impl
       - entity.name.class.ford-decl # in c or c++
       - entity.other.inherited-class # base class
       - entity.name.function.definition
       - entity.name.function.constructor
       - entity.name.function.destructor
     settings:
-      foreground: *navy
+      foreground: *aqua
+      fontStyle: bold
+
+  - scope:
+      - entity.name.trait
+      - entity.name.interface
+      - entity.name.impl
+    settings:
+      foreground: *blue
       fontStyle: bold
 
   - scope:
@@ -1023,6 +1033,12 @@ tokenColors:
       - entity.name.function.preprocessor
     settings:
       foreground: *olive
+      fontStyle: bold
+
+  - scope:
+      - entity.name.enum
+    settings:
+      foreground: *green
       fontStyle: bold
 
   # - scope:

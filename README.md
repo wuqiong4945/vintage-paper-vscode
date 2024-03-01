@@ -2,7 +2,7 @@
 
 A light theme for Visual Studio Code.
 
-![Preview](https://raw.githubusercontent.com/wuqiong4945/vintage-paper-vscode/main/images/screen.png)
+![Preview](https://raw.githubusercontent.com/wuqiong4945/vintage-paper-vscode/main/images/screen.PNG)
 
 Original version based on vim [papercolor](https://github.com/NLKNguyen/papercolor-Theme) theme.
 
